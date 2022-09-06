@@ -1,0 +1,501 @@
+@font-face {
+    font-family:"DIN Pro";
+    src: url(../fonts/dinpro.woff);
+}/*подключила первый шрифт, умничка)*/
+
+
+
+body{
+    font-family: "DIN Pro";
+    font-weight:500;
+    max-width: 1920px;
+}
+.container{/*ставь в отдельных блоках и подблоках*/
+    max-width: 1214px;
+    margin: 0 auto;
+}
+.main__container{
+    max-width: 1214px;
+    margin: 0 auto; 
+}
+.footer__container{
+    max-width: 1214px;
+    margin: 0 auto; 
+}
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 64px;
+    margin-bottom: 96px;
+}
+.header__menu{
+    margin-left: 275px;
+}
+ul.header__list{
+    display: flex;
+    list-style-type: none;
+    margin-left: -100px;
+    
+}
+li.header__list_elem{
+margin-left: 40px;
+font-size: 16px;
+line-height: 40px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #263640;
+font-weight: bold;
+white-space: nowrap;
+}
+
+li.yellow_elem{
+    color: #FF9900;
+    border-bottom: 2px solid #FF9900 ;
+    margin-top: 2px;
+}
+
+li.arrow_after:after{
+    content: "▼";
+    margin-left: 5px;
+    transform: scale(0.77);
+}
+
+.nav__button_img{
+    margin-left: 209px;
+    display: flex;
+}
+button.header__button{
+padding: 0px 24px;
+gap: 16px;
+width: 146px;
+height: 40px;
+border: none;
+background: #FF9900;
+color: #fff;
+font-weight: 700;
+font-size: 16px;
+display: flex;
+align-items: center;
+text-align: right
+}
+
+button.header__button:after{
+    content: url("../weiss.images/письмо.png")   
+}
+
+
+.header__face{
+    display: flex;
+}
+.header__heading{
+    padding-top: 100px;
+    padding-bottom: 174px;
+    width: 470px;
+    height: 302px;
+}
+.header__subtitle{
+font-size: 14px;
+font-weight: bold;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #929A9F;
+margin-bottom: 15px ;
+}
+.header__title{
+font-size: 32px;
+font-weight: 900;
+line-height: 45px;
+color: #263640;
+margin-bottom: 15px ;
+}
+.header__text{
+ width: 427px;
+height: 84px;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+margin-bottom: 38px;
+}
+
+button.face_button{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 16px;
+width: 213px;
+height: 40px;
+}
+button.face_button:after{
+    content: url("weiss.images/стрелочка.png");
+}
+
+.header__img{
+    margin-left: 65px;
+    margin-top: 100px;
+    width: 601px;
+    height: 641px;
+    background-color: #F5F8FA;
+    width: 593px;
+    height: 750px;
+}
+img.header_consrtuction{
+    margin-top: -100px;
+    position: absolute;
+    box-shadow: 0px 0px 38px -3px rgba(34, 60, 80, 0.2);
+}
+img.scale{
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+}
+.main__first_block{
+    background-color: #F5F8FA;
+    margin-top: -275px;
+    padding-top: 178px;
+    padding-bottom: 555px;
+}
+.main__title{
+    font-size: 24px;
+line-height: 44px;
+font-weight: 900;
+color: #263640;
+}
+.first_block_title{
+    margin-bottom: 16px;
+}
+
+.main__text{
+width: 520px;
+height: 112px;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+}
+.first_block_text{
+    margin-bottom: 80px;
+}
+.first_block_row{
+    display: grid;
+    grid-template-columns: repeat(3,312px);
+    grid-template-rows: 605px;
+    grid-column-gap: 140px;
+    padding: 0;
+}
+
+img.building{
+width: 312px;
+height: 333px;
+box-shadow: none;
+padding: 0;
+transform: scale(1.25);
+}
+
+.first_block_card_title{
+    margin-top: 24px;
+}
+.first_block_card_text{
+width: 312px;
+height: 112px;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+margin-bottom: 24px;
+}
+
+.main__ahref{
+    font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #FF9900;
+text-decoration: none;
+}
+
+.main__ahref:after{
+    content: url("weiss.images/оранжевая стрелочка.png");
+    padding-left: 8px;
+}
+.main__second_block{
+    max-width: 1214px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.main__face_wrapper{
+    width: 1320px;
+    height: 400px;
+    background-color: #F5F8FA;
+    margin: 0 auto;
+    display: flex;
+   
+}
+.main__face{
+    width: 809px;
+    max-height: 584px;
+    margin-top: -389px;
+    background-color: #263640;
+    padding: 98px 85px 74px 98px;
+}
+
+.second_block_face_subtitle{
+    font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #929A9F;
+margin-bottom: 24px;
+}
+
+.second_block_face_title{
+    width: 494px;
+    height: 132px;
+    color: #fff; 
+font-size: 32px;
+line-height: 44px;
+margin-bottom: 24px;
+}
+
+.second_block_face_text{
+width: 422px;
+height: 104px;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+margin-bottom: 56px;
+}
+
+hr.main__line{
+width: 494px;
+height: 0px;
+opacity: 0.2;
+border: 1px solid #FFFFFF;
+margin-left: 0;
+margin-bottom: 24px;
+}
+
+.second_block_face_ahref{
+    color: #fff;
+}
+.second_block_face_ahref:after{
+content: url("weiss.images/стрелочка.png");
+position: relative;
+top: 7px;
+}
+
+.second_block_img{
+    width: 488px;
+height: 662px;
+   margin-left: -350px;
+   margin-top:-340px ;
+   /* margin-left: 800px;
+    margin-top: -560px;
+    margin-bottom: 80px;*/
+   
+}
+
+.main__third_block{
+    max-width: 1214px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.third_block_header{
+    display: flex;
+}
+.third_block_title{
+    margin-bottom: 16px;
+}
+.third_block_text{
+    width: 488px;
+height: 84px;
+display: flex;
+align-items: center;
+margin-bottom: 80px;
+}
+.main__button{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px;
+gap: 16px;
+width: 153px;
+height: 40px;
+border: none;
+background: #FF9900;
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+color: #FFFFFF;
+white-space: nowrap;
+margin-left: 575px;
+margin-bottom: 101px;
+}
+.main__button:after{
+    content: url("weiss.images/стрелочка.png");
+    padding-top: 15px;
+}
+
+.main__subtitle {
+    font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #929A9F;
+font-weight: 900;
+}
+.third_block_subtitle{
+    margin-bottom: 32px;
+}
+
+.third_block_row{
+    display: flex;
+    grid-template-columns: repeat(3,361px);
+    grid-column-gap: 67px;
+    margin-bottom: 209px;
+
+}
+.third_block_card{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 361px;
+height: 212px;
+}
+.third_block_card_title{
+width: 361px;
+height: 60px;
+font-style: normal;
+font-weight: 900;
+margin-bottom: 20px;
+
+}
+.third_block_card_text{
+    width: 361px;
+    height: 84px;
+  
+}
+
+.footer__firsr_content{
+    background-color: #F5F8FA;
+    max-width: 1920px;
+   
+}
+.footer_white{
+    display: flex;
+    flex-direction: row;
+    gap: 161px;
+}
+.footer__heading{
+    max-width: 1216px;
+    margin: 0 auto;
+    padding-top: 101px;
+    padding-bottom: 116px;
+  margin-top: 123px;
+    /*width: 328px;
+    height: 260px;*/
+}
+
+.footer__subtitle{
+    font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #929A9F;
+margin-bottom: 16px;
+font-weight: 900;
+}
+.footer__title{
+font-size: 32px;
+line-height: 44px;
+color: #263640;
+font-weight: 900;
+margin-bottom: 24px;
+}
+.footer__text{
+    width: 327px;
+height: 84px;
+font-size: 16px;
+line-height: 28px;
+color: #929A9F;
+margin-bottom: 32px;
+}
+.footer__button{
+display: flex;
+flex-direction: row;
+max-width: 135px;
+height: 40px;
+border: none;
+background: #FF9900;
+font-weight: 700;
+font-size: 16px;
+color: #FFFFFF;
+white-space: nowrap;
+}
+
+img.footer__img{
+    margin-top: -44px;
+    margin-bottom: 116px;
+    
+    
+}
+
+.footer__second_content{
+    background-color: #263640;
+    padding-bottom: 40px;
+}
+.footer__header{
+    display: flex;
+}
+
+.footer__logo{
+    margin-top: 82px;
+    margin-bottom: 84px;
+    width: 134.48px;
+height: 38.34px;
+}
+.footer__rows{
+    display: flex;
+    margin-left: auto;
+    gap: 144px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+ul.footer__list{
+    list-style-type: none;
+}
+li.footer__list_elem {
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.header_elem{
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 1.75px;
+text-transform: uppercase;
+color: #FFFFFF;
+font-weight: 900;
+}
+
+hr.footer__line{
+width: 1216px;
+height: 0px;
+opacity: 0.2;
+border: 1px solid #FFFFFF;
+margin-bottom: 40px;
+}
+
+.footer__context{
+font-size: 14px;
+line-height: 18px;
+word-spacing: 11px;
+opacity: 0.5;
+color: #FFFFFF;
+
+}
